@@ -1,12 +1,12 @@
 server:
-  port: 8086
+  port: 8081
 spring:
   application:
     name: USERSERVICE
   datasource:
-    url: jdbc:postgresql://localhost:5432/userSecurity
-    username: law
-    password: Motorihi6
+    url: jdbc:postgresql://localhost:5432/usersecurity
+    username: lawispringboot
+    password: Lawrence
   jpa:
     hibernate:
       ddl-auto: update
