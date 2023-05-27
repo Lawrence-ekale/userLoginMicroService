@@ -1,0 +1,17 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: USERSERVICE
+  datasource:
+    url: jdbc:postgresql://localhost:5432/userSecurity
+    username: law
+    password: Motorihi6
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show_sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
